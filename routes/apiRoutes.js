@@ -2,7 +2,7 @@ var db = require("../models");
 
 module.exports = function(app) {
 
-    // Used by api.js to get last workout
+    //Finds workout from previous information in database using the find() function
     app.get("/api/workouts", (req, res) => {
         db.Workout.find({})
         .then(workout => {
