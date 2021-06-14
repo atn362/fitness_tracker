@@ -29,7 +29,7 @@ module.exports = function(app) {
         const workoutId = params.id;
         let savedExercises = [];
 
-        // gets all the currently saved exercises in the current workout
+        // uses the find() function to locate previous workouts using the sessions id
         db.Workout.find({_id: workoutId})
             .then(dbWorkout => {
                 savedExercises = dbWorkout[0].exercises;
