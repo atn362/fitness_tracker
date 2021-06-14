@@ -42,7 +42,7 @@ const workoutSchema = new Schema(
         {
           //converts information to json format to be displayed in the console/terminal
           toJSON: {
-            // include any virtual properties when data is requested
+            // displays virtual fields on the client side
             virtuals: true
           }
         }
