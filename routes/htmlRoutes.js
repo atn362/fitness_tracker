@@ -1,7 +1,7 @@
 var path = require("path");
 
 module.exports = function(app) {
-  // Called when "Countinue Workout" or "new Workout" is clicked in index.html
+  // joins the exercise function through the relative path to the excercise.html page 
   app.get("/exercise", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/exercise.html"));
   });
