@@ -13,7 +13,7 @@ module.exports = function(app) {
         });
     });
     
-    // Creates a new workout in the workout database
+    // Creates a new workout in the the workout database, then catches a error if it occurs
     app.post("/api/workouts", async (req, res)=> {
         try{
             const response = await db.Workout.create({type: "workout"})
