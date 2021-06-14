@@ -24,7 +24,7 @@ module.exports = function(app) {
         }
     })
 
-    // Adds new workout to the database using the required paramaters
+    // Adds new workout to the database using the required paramaters ie: the id of said workout
     app.put("/api/workouts/:id", ({body, params}, res) => {
         const workoutId = params.id;
         let savedExercises = [];
