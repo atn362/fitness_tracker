@@ -6,18 +6,26 @@ NoSQL Fitness Tracker
 
 
 
-# Description
-
-This application is used to create a workout database using MONGODB to organize your workouts in regards to both resistence workout and a cardio workout.  The cardio takes parameters of distance and time, while the resistence training takes weight, sets and duration.
-
 # Table of Contents 
-* [Title](#title)
+* [Description](#description)
+* [Images](#images)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
 * [Contribution](#contribution)
 * [Tests](#tests)
 * [Questions](#questions)
+
+# Description
+
+This application is used to create a workout database using MONGODB to organize your workouts in regards to both resistance workout and a cardio workout.  The cardio takes parameters of distance and time, while the resistance training takes weight, sets and duration.
+
+# Images
+
+![database](https://user-images.githubusercontent.com/77468756/122687450-30ff9a80-d1dc-11eb-821a-5f4b79367d07.png)
+![fitness](https://user-images.githubusercontent.com/77468756/122687452-3361f480-d1dc-11eb-937d-2d174baef0ca.png)
+![terminal1](https://user-images.githubusercontent.com/77468756/122687454-352bb800-d1dc-11eb-877c-8e5016539f28.png)
+
 
 # Installation
 What is needed to install this application? User runs this application by using the NPM start command in the integrated terminal of the index file.
